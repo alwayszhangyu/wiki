@@ -9,7 +9,7 @@ import type { BaseLayoutProps } from 'fumadocs-ui/layouts/shared';
  * Home Layout: app/(home)/layout.tsx
  * Docs Layout: app/docs/layout.tsx
  */
-export function baseOptions(locale: string): BaseLayoutProps {
+export function baseOptions(_locale: string): BaseLayoutProps {
   return {
     i18n,
     nav: {
